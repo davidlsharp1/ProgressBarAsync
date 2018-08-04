@@ -35,10 +35,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(208, 108);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button1.Location = new System.Drawing.Point(139, 70);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(162, 71);
+            this.button1.Size = new System.Drawing.Size(108, 46);
             this.button1.TabIndex = 0;
             this.button1.Text = "Start";
             this.button1.UseVisualStyleBackColor = true;
@@ -46,32 +45,32 @@
             // 
             // pbProgress
             // 
-            this.pbProgress.Location = new System.Drawing.Point(114, 342);
-            this.pbProgress.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pbProgress.Location = new System.Drawing.Point(76, 222);
             this.pbProgress.Maximum = 10;
             this.pbProgress.Name = "pbProgress";
-            this.pbProgress.Size = new System.Drawing.Size(380, 35);
+            this.pbProgress.Size = new System.Drawing.Size(253, 23);
             this.pbProgress.TabIndex = 1;
+            this.pbProgress.Click += new System.EventHandler(this.pbProgress_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(235, 238);
+            this.label1.Location = new System.Drawing.Point(157, 155);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(113, 40);
+            this.label1.Size = new System.Drawing.Size(79, 29);
             this.label1.TabIndex = 2;
             this.label1.Text = "label1";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(609, 506);
+            this.ClientSize = new System.Drawing.Size(406, 329);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pbProgress);
             this.Controls.Add(this.button1);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);

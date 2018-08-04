@@ -18,6 +18,8 @@ namespace BusinessLogic
                 await Task.Delay(1000);
                 report.CurrentNumber = i;
                 //                report.PercentageComplete = 10 / i;
+
+                // this Report method sends back the updates to the progress created in the view layer
                 progress.Report(report);
             }
 
